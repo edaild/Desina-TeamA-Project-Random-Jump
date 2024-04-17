@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -8,6 +9,7 @@ public class PlayerMove : MonoBehaviour
     float hAxis;
     float vAxis;
     bool jump;
+
 
 //    bool isJump;
 
@@ -28,6 +30,7 @@ public class PlayerMove : MonoBehaviour
         Move();
         Turn();
         Jump();
+  
     }
 
 
@@ -57,10 +60,14 @@ public class PlayerMove : MonoBehaviour
         if (jump) // ! 부정문 bool 값만 가능
         {
             rb.AddForce(Vector3.up * 5, ForceMode.Impulse);
+
           //  anim.SetBool("triggerJump", true);
           //  isJump = true;
         }
     }
+
+  
+
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Game field")
