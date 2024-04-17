@@ -1,2 +1,2 @@
-# Desina-TeamA-Project-Random-Jumu
+# Desina-TeamA-Project-Random-Jump
 Desina  TeamA Project Random Jump
