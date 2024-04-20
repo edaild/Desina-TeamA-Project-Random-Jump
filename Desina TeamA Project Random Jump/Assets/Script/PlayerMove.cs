@@ -11,17 +11,17 @@ public class PlayerMove : MonoBehaviour
     bool jump;
 
 
-//    bool isJump;
+  bool isJump;
 
     Vector3 moveVec;
 
     Rigidbody rb; // 케릭터를 움직이기 위해 선언
-  //  Animator anim;
+    Animator anim;
 
     void Awake()
     {
         rb = GetComponent<Rigidbody>();
-      //  anim = GetComponentInChildren<Animator>();
+        anim = GetComponentInChildren<Animator>();
 
     }
     void Update()
@@ -47,7 +47,7 @@ public class PlayerMove : MonoBehaviour
 
         transform.position += moveVec * speed * Time.deltaTime;
 
-   //     anim.SetBool("isRun", moveVec != Vector3.zero);
+        anim.SetBool("isRun", moveVec != Vector3.zero);
     }
 
     void Turn()
@@ -57,12 +57,12 @@ public class PlayerMove : MonoBehaviour
 
     void Jump() // 점프
     {
-        if (jump) // ! 부정문 bool 값만 가능
+        if (jump && !isJump) // ! 부정문 bool 값만 가능
         {
-            rb.AddForce(Vector3.up * 5, ForceMode.Impulse);
+            rb.AddForce(Vector3.up * 8, ForceMode.Impulse);
 
-          //  anim.SetBool("triggerJump", true);
-          //  isJump = true;
+            anim.SetBool("triggerJump", true);
+           isJump = true;
         }
     }
 
@@ -72,8 +72,8 @@ public class PlayerMove : MonoBehaviour
     {
         if (collision.gameObject.tag == "Game field")
         {
-         //   anim.SetBool("triggerJump", false);
-         //   isJump = false;
+            anim.SetBool("triggerJump", false);
+            isJump = false;
         }
 
         if (collision.gameObject.tag == "Finish Box")
