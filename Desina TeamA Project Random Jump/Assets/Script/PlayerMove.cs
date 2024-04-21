@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using static VRC.Dynamics.VRCPhysBoneBase;
 
 public class PlayerMove : MonoBehaviour
 {
@@ -59,14 +60,13 @@ public class PlayerMove : MonoBehaviour
     {
         if (jump && !isJump) // ! 부정문 bool 값만 가능
         {
-            rb.AddForce(Vector3.up * 8, ForceMode.Impulse);
+            rb.AddForce(Vector3.up * 5, ForceMode.Impulse);
 
             anim.SetBool("triggerJump", true);
            isJump = true;
         }
     }
 
-  
 
     private void OnCollisionEnter(Collision collision)
     {

@@ -5,25 +5,26 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NewBehaviourScript : MonoBehaviour
+public class LimitTime : MonoBehaviour
 {
 
 
-    public float LimitTime;
+    public float GameTime;
     public Text Text;
 
     void Update()
     {
-        LimitTime -= Time.deltaTime;
-        Text.text = "Time : "+ Mathf.Round(LimitTime);
+        GameTime -= Time.deltaTime;
+        Text.text = "Time : "+ Mathf.Round(GameTime);
         
         
-        if(LimitTime <= 0)
+        if(GameTime <= 0)
         {
-            
+        
             Debug.Log("시간이 종류 되었습니다.");
             gameObject.SetActive(false);
         }
 
     }
+
 }

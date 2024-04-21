@@ -7,6 +7,7 @@ TagManager:
   - Game field
   - Finish Box
   - Plane
+  - limitTime
   layers:
   - Default
   - TransparentFX

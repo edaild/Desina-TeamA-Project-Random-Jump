@@ -14,8 +14,8 @@ public class RandomBox : MonoBehaviour
     }
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space)) IsTouch();
-        if (Input.GetKeyDown(KeyCode.R)) ResetNode();
+     //   if (Input.GetKeyDown(KeyCode.Space)) IsTouch();
+     //   if (Input.GetKeyDown(KeyCode.R)) ResetNode();
     }
     public void SetRandom()
     {
@@ -45,5 +45,15 @@ public class RandomBox : MonoBehaviour
         nodeLeft.SetActive(true);
         nodeRight.SetActive(true);
         SetRandom();
+    }
+
+    private void OnCollisionEnter(Collision collision)
+    {
+        if(gameObject.tag == "Player")
+        {
+            print("랜덤블런과 충돌함");
+            IsTouch();
+            ResetNode();
+        }
     }
 }
