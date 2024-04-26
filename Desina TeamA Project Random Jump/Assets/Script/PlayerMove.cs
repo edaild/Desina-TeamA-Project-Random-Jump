@@ -9,10 +9,9 @@ public class PlayerMove : MonoBehaviour
     public float speed;
     float hAxis;
     float vAxis;
-    bool jump;
 
-
-  bool isJump;
+    bool isJump;
+    bool jump_anim;
 
     Vector3 moveVec;
 
@@ -39,7 +38,6 @@ public class PlayerMove : MonoBehaviour
     {
         hAxis = Input.GetAxisRaw("Horizontal");
         vAxis = Input.GetAxisRaw("Vertical");
-        jump = Input.GetButtonDown("Jump");
     }
 
     void Move()
@@ -58,24 +56,37 @@ public class PlayerMove : MonoBehaviour
 
     void Jump() // 점프
     {
-        if (jump && !isJump) // ! 부정문 bool 값만 가능
+        if (Input.GetButtonDown("Jump")) // ! 부정문 bool 값만 가능
         {
-            rb.AddForce(Vector3.up * 5, ForceMode.Impulse);
-
-            anim.SetBool("triggerJump", true);
-           isJump = true;
+            anim.SetTrigger("isJump");
+            isJump = true;
+            StartCoroutine(Jump_anim());
         }
+        
     }
-
-
+    IEnumerator Jump_anim()
+    {
+        yield return null;
+        while (!jump_anim) 
+        {
+            if (anim.GetCurrentAnimatorStateInfo(0).normalizedTime >= 0.2f)
+            {
+                jump_anim = true;
+                rb.velocity = Vector3.zero;
+                rb.AddForce(Vector3.up * 5, ForceMode.Impulse);
+            }
+            yield return null;
+        }
+        yield return null;
+    }
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Game field")
         {
             anim.SetBool("triggerJump", false);
             isJump = false;
+            jump_anim = false;
         }
-
         if (collision.gameObject.tag == "Finish Box")
         {
             gameObject.SetActive(false);
