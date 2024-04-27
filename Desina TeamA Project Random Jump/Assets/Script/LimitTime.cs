@@ -7,10 +7,11 @@ using UnityEngine.UI;
 
 public class LimitTime : MonoBehaviour
 {
-
-
+   
+    public GameObject TimeoverText;
     public float GameTime;
     public Text Text;
+
 
     void Update()
     {
@@ -20,7 +21,7 @@ public class LimitTime : MonoBehaviour
         
         if(GameTime <= 0)
         {
-        
+            TimeoverText.SetActive(true);
             Debug.Log("시간이 종류 되었습니다.");
             gameObject.SetActive(false);
         }

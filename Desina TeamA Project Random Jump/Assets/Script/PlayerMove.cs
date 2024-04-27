@@ -94,6 +94,7 @@ public class PlayerMove : MonoBehaviour
         }
         if (collision.gameObject.tag == "Plane")
         {
+            GameManager gameManager = FindAnyObjectByType<GameManager>();
             gameObject.SetActive(false);
             print("Game Over");
         }
