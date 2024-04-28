@@ -51,7 +51,7 @@ public class RandomBox : MonoBehaviour
     {
         if(gameObject.tag == "Player")
         {
-            print("랜덤블런과 충돌함");
+            print("랜덤블럭과 충돌함");
             IsTouch();
             ResetNode();
         }

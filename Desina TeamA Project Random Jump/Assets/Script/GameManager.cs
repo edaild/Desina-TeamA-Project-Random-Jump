@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing.Printing;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
@@ -16,13 +18,10 @@ public class GameManager : MonoBehaviour
     
     void Update()
     {
-        
-    }
-
-    public void EndGame()
-    {
-        isGameover = true;
-        GameoverText.SetActive(true);
-
+        if (isGameover)
+        {
+            isGameover = true;
+            GameoverText.SetActive(true);
+        }
     }
 }
