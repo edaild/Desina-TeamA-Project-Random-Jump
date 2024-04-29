@@ -10,7 +10,6 @@ public class PlayerMove : MonoBehaviour
     float hAxis;
     float vAxis;
 
-    bool isJump;
     bool jump_anim;
 
     Vector3 moveVec;
@@ -59,7 +58,7 @@ public class PlayerMove : MonoBehaviour
         if (Input.GetButtonDown("Jump")) // ! 부정문 bool 값만 가능
         {
             anim.SetTrigger("isJump");
-            isJump = true;
+          
             StartCoroutine(Jump_anim());
         }
         
@@ -83,18 +82,20 @@ public class PlayerMove : MonoBehaviour
     {
         if (collision.gameObject.tag == "Game field")
         {
-            anim.SetBool("triggerJump", false);
-            isJump = false;
             jump_anim = false;
         }
         if (collision.gameObject.tag == "Finish Box")
         {
+            gameObject.SetActive(false);
+            GameManager gameManager = FindAnyObjectByType<GameManager>();
+            gameManager.Clear();
             gameObject.SetActive(false);
             print("스테이지 클리어");
         }
         if (collision.gameObject.tag == "Plane")
         {
             GameManager gameManager = FindAnyObjectByType<GameManager>();
+            gameManager.GameOver();
             gameObject.SetActive(false);
             print("Game Over");
         }
