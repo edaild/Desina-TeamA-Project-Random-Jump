@@ -99,5 +99,10 @@ public class PlayerMove : MonoBehaviour
             gameObject.SetActive(false);
             print("Game Over");
         }
+        if(collision.gameObject.tag == "Nonobox")
+        {
+            print("함정 큐뷰 입니다.");
+            Destroy(collision.gameObject);
+        }
     }
 }
