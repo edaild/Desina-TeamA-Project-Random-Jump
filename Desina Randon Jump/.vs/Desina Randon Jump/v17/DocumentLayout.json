@@ -1,21 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\git\\Desina Randon Jump\\",
+  "WorkspaceRootPath": "C:\\git\\Desina-TeamA-Project-Random-Jump\\Desina Randon Jump\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2C978750-FFDC-F2B6-AEF0-A6D0521929EC}|Assembly-CSharp.csproj|c:\\git\\desina randon jump\\assets\\floatingentities\\scripts\\propellerboats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2C978750-FFDC-F2B6-AEF0-A6D0521929EC}|Assembly-CSharp.csproj|solutionrelative:assets\\floatingentities\\scripts\\propellerboats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2C978750-FFDC-F2B6-AEF0-A6D0521929EC}|Assembly-CSharp.csproj|c:\\git\\desina randon jump\\assets\\script\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C978750-FFDC-F2B6-AEF0-A6D0521929EC}|Assembly-CSharp.csproj|C:\\git\\Desina-TeamA-Project-Random-Jump\\Desina Randon Jump\\assets\\script\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C978750-FFDC-F2B6-AEF0-A6D0521929EC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C978750-FFDC-F2B6-AEF0-A6D0521929EC}|Assembly-CSharp.csproj|C:\\git\\Desina Randon Jump\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F161277F-D89D-793C-4CEC-342006193821}|VRM.csproj|c:\\git\\desina-teama-project-random-jump\\desina randon jump\\assets\\vrm\\runtime\\humanoid\\vrmhumanoiddescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F161277F-D89D-793C-4CEC-342006193821}|VRM.csproj|solutionrelative:assets\\vrm\\runtime\\humanoid\\vrmhumanoiddescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C978750-FFDC-F2B6-AEF0-A6D0521929EC}|Assembly-CSharp.csproj|C:\\git\\Desina-TeamA-Project-Random-Jump\\Desina Randon Jump\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C978750-FFDC-F2B6-AEF0-A6D0521929EC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2C978750-FFDC-F2B6-AEF0-A6D0521929EC}|Assembly-CSharp.csproj|C:\\git\\Desina Randon Jump\\assets\\script\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2C978750-FFDC-F2B6-AEF0-A6D0521929EC}|Assembly-CSharp.csproj|C:\\git\\Desina-TeamA-Project-Random-Jump\\Desina Randon Jump\\assets\\floatingentities\\scripts\\propellerboats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2C978750-FFDC-F2B6-AEF0-A6D0521929EC}|Assembly-CSharp.csproj|solutionrelative:assets\\floatingentities\\scripts\\propellerboats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2C978750-FFDC-F2B6-AEF0-A6D0521929EC}|Assembly-CSharp.csproj|C:\\git\\Desina-TeamA-Project-Random-Jump\\Desina Randon Jump\\assets\\script\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2C978750-FFDC-F2B6-AEF0-A6D0521929EC}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -26,30 +30,42 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "PropellerBoats.cs",
-              "DocumentMoniker": "C:\\git\\Desina Randon Jump\\Assets\\FloatingEntities\\Scripts\\PropellerBoats.cs",
-              "RelativeDocumentMoniker": "Assets\\FloatingEntities\\Scripts\\PropellerBoats.cs",
-              "ToolTip": "C:\\git\\Desina Randon Jump\\Assets\\FloatingEntities\\Scripts\\PropellerBoats.cs",
-              "RelativeToolTip": "Assets\\FloatingEntities\\Scripts\\PropellerBoats.cs",
-              "ViewState": "AQIAAEMAAAAAAAAAAAAgwEoAAAAaAAAA",
+              "DocumentIndex": 1,
+              "Title": "VRMHumanoidDescription.cs",
+              "DocumentMoniker": "C:\\git\\Desina-TeamA-Project-Random-Jump\\Desina Randon Jump\\Assets\\VRM\\Runtime\\Humanoid\\VRMHumanoidDescription.cs",
+              "RelativeDocumentMoniker": "Assets\\VRM\\Runtime\\Humanoid\\VRMHumanoidDescription.cs",
+              "ToolTip": "C:\\git\\Desina-TeamA-Project-Random-Jump\\Desina Randon Jump\\Assets\\VRM\\Runtime\\Humanoid\\VRMHumanoidDescription.cs",
+              "RelativeToolTip": "Assets\\VRM\\Runtime\\Humanoid\\VRMHumanoidDescription.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAIwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-01T07:06:25.889Z",
+              "WhenOpened": "2024-05-04T02:47:18.486Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "PropellerBoats.cs",
+              "DocumentMoniker": "C:\\git\\Desina-TeamA-Project-Random-Jump\\Desina Randon Jump\\Assets\\FloatingEntities\\Scripts\\PropellerBoats.cs",
+              "RelativeDocumentMoniker": "Assets\\FloatingEntities\\Scripts\\PropellerBoats.cs",
+              "ToolTip": "C:\\git\\Desina-TeamA-Project-Random-Jump\\Desina Randon Jump\\Assets\\FloatingEntities\\Scripts\\PropellerBoats.cs",
+              "RelativeToolTip": "Assets\\FloatingEntities\\Scripts\\PropellerBoats.cs",
+              "ViewState": "AQIAAEMAAAAAAAAAAAAgwEoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-01T07:06:25.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Main.cs",
-              "DocumentMoniker": "C:\\git\\Desina Randon Jump\\Assets\\Script\\Main.cs",
+              "DocumentMoniker": "C:\\git\\Desina-TeamA-Project-Random-Jump\\Desina Randon Jump\\Assets\\Script\\Main.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Main.cs",
-              "ToolTip": "C:\\git\\Desina Randon Jump\\Assets\\Script\\Main.cs",
+              "ToolTip": "C:\\git\\Desina-TeamA-Project-Random-Jump\\Desina Randon Jump\\Assets\\Script\\Main.cs",
               "RelativeToolTip": "Assets\\Script\\Main.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvxAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvxQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T07:05:56.787Z",
               "EditorCaption": ""
@@ -58,21 +74,21 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\git\\Desina Randon Jump\\Assets\\Script\\GameManager.cs",
+              "DocumentMoniker": "C:\\git\\Desina-TeamA-Project-Random-Jump\\Desina Randon Jump\\Assets\\Script\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
-              "ToolTip": "C:\\git\\Desina Randon Jump\\Assets\\Script\\GameManager.cs",
+              "ToolTip": "C:\\git\\Desina-TeamA-Project-Random-Jump\\Desina Randon Jump\\Assets\\Script\\GameManager.cs",
               "RelativeToolTip": "Assets\\Script\\GameManager.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAAvwD4AAAAwAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAIwD4AAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-01T06:23:28.992Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "PlayerMove.cs",
-              "DocumentMoniker": "C:\\git\\Desina Randon Jump\\Assets\\Script\\PlayerMove.cs",
+              "DocumentMoniker": "C:\\git\\Desina-TeamA-Project-Random-Jump\\Desina Randon Jump\\Assets\\Script\\PlayerMove.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PlayerMove.cs",
-              "ToolTip": "C:\\git\\Desina Randon Jump\\Assets\\Script\\PlayerMove.cs",
+              "ToolTip": "C:\\git\\Desina-TeamA-Project-Random-Jump\\Desina Randon Jump\\Assets\\Script\\PlayerMove.cs",
               "RelativeToolTip": "Assets\\Script\\PlayerMove.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

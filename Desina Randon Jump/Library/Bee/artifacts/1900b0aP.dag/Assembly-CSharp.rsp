@@ -327,7 +327,6 @@
 "Assets/Script/GameManager.cs"
 "Assets/Script/Main.cs"
 "Assets/Script/PlayerMove.cs"
-"Assets/Script/RandomBox.cs"
 -langversion:9.0
 
 /deterministic

@@ -17,8 +17,8 @@ public class Main : MonoBehaviour
 
         if (Input.GetKey(KeyCode.E))
         {
-            // UnityEditor.EditorApplication.isPlaying = false;
-            // Application.Quit();
+           //  UnityEditor.EditorApplication.isPlaying = false;
+           //  Application.Quit();
            
         }
     }
